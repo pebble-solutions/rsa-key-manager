@@ -1,5 +1,6 @@
 {
     "name": "pebble/rsa-key-manager",
+    "description": "Librairie de lecture des fichiers de clés RSA utilisés pour le système d'authentification de pebble",
     "autoload": {
         "psr-4": {
             "Pebble\\": "src/"
