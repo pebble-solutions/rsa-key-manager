@@ -3,7 +3,7 @@
     "description": "Librairie de lecture des fichiers de clés RSA utilisés pour le système d'authentification de pebble",
     "autoload": {
         "psr-4": {
-            "Pebble\\": "src/"
+            "Pebble\\Security\\RSA\\": "src/"
         }
     },
     "minimum-stability": "dev"
