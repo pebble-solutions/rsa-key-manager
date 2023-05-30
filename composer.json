@@ -1,0 +1,8 @@
+{
+    "name": "pebble/rsa-key-manager",
+    "autoload": {
+        "psr-4": {
+            "Pebble\\": "src/"
+        }
+    }
+}
