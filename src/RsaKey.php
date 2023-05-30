@@ -54,6 +54,7 @@ class RsaKey implements RsaKeyInterface {
             $key = self::getKeyFileContent($filename);
         }
         catch (KeyNotFoundException $e) {
+            var_dump($filename);
             throw new PublicKeyNotFoundException($this->key);
         }
 
