@@ -92,6 +92,10 @@ class RsaKey implements RsaKeyInterface {
      */
     private static function getKeyFileContent(string $keyFile): string
     {
+        if (!file_exists($keyFile)) {
+            throw new KeyNotFoundException($keyFile);
+        }
+
         $file = fopen( $keyFile, "r" );
 
         if ( $file == false) {
